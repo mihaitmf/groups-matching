@@ -1,0 +1,17 @@
+{
+  "require": {
+    "php-di/php-di": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GroupsMatching\\": ["src/"]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GroupsMatching\\": "test/"
+    }
+  }
+}
+
+
